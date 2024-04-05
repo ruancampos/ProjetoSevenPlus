@@ -1,0 +1,331 @@
+
+
+@media only screen and (min-width:292px) and (max-width:479.99px){
+    body{background: rgb(255, 255, 255);}
+    #pagina{
+        width: 96%;
+        min-height: 800px;
+        padding: 2%;
+        float: left;
+        background: #000
+    }
+    #pagina #cabecalho{
+         width: 100%;
+         float: left;
+         background: #f00;
+    }
+    #pagina #cabecalho #menu-topo{
+        width: 100px;
+        height: 40px;
+        float: left;
+        background-color: rgb(139, 0, 0);
+        margin-top: 15px;
+    }
+    #pagina #cabecalho #logo-topo{
+        width: 140px;
+        height: 100px;
+        float: left;
+        margin-left:25px ;
+    } 
+    #pagina #cabecalho #barra-pesquisa{display: none;}
+    
+    #pagina #cabecalho #ID-usuario{
+        width: 100px;
+        height: 40px;
+        float: right;
+        margin-top: 15px;
+        background: rgb(141, 0, 0);
+    }
+    #pagina #corpo{
+        width: 100%;
+        float: left;
+        margin: 10px 0px;
+        background: rgb(47, 0, 255);
+    }
+    #pagina #corpo #banner{
+        width: 100%;
+        height: 230px;
+        background: #fff;
+    }
+    #pagina #corpo #imagens .oculta2{display: none;}
+    #pagina #corpo #imagens .oculta1{display: none;}
+
+    #pagina #corpo #imagens{
+        width: 100%;
+    }
+    #pagina #corpo #imagens .fotos{
+        width: 45%;
+        height: 150px;
+        float: left;
+        margin-left: 13px;
+        margin-top: 50px;
+        margin-bottom: 30px;
+        background: cadetblue;
+    }
+    #pagina #informacoes{
+        width: 100%;
+        min-height: 100px;
+        background: rgb(255, 255, 255);
+        float: left;
+
+    }
+    #pagina  #informacoes .logo-mid{
+        width: 140px;
+        height: 70px;
+        float: left;
+        margin-left: 120px;
+        margin-top: 20px;
+        background-color: rgb(34, 126, 126);
+    }
+    #pagina #informacoes .texto-info{
+        width: 170px;
+        height: 100px;
+        float: left;
+        margin-left: 13px;
+        margin-top: 20px;
+        background: rgb(255, 0, 0);
+    }
+    #pagina #rodape{
+        width: 100%;
+        float: left;
+        background-color: skyblue;
+    }
+    #pagina #rodape #logo-base{display: none;}
+    #pagina #rodape #texto-base{display: none;}
+    #pagina #rodape #configuracoes{
+        width: 100%;
+        height: 50px;
+        float: left;
+        background-color: darkorchid;
+    }
+    #pagina #rodape #icones-sociais{
+        width: 100%;
+        height: 50px;
+        float: left;
+        background-color: aqua;
+    }
+}
+
+ @media only screen and (min-width:480px) and (max-width:599.99px){
+   body{background-color: rgb(0, 162, 255);}
+ #pagina{
+    width: 96%;
+    min-height: 800px;
+    padding: 2%;
+    float: left;
+    background-color: darkolivegreen;
+ }
+ #pagina #cabecalho{
+    width: 100%;
+    float: left;
+    background: #f00;
+}
+#pagina #cabecalho #menu-topo{
+   width: 100px;
+   height: 40px;
+   float: left;
+   background-color: rgb(139, 0, 0);
+   margin-top: 15px;
+}
+#pagina #cabecalho #logo-topo{
+   width: 140px;
+   height: 100px;
+   float: left;
+   margin-left:100px ;
+} 
+#pagina #cabecalho #barra-pesquisa{display: none;}
+
+#pagina #cabecalho #ID-usuario{
+   width: 100px;
+   height: 40px;
+   float: right;
+   margin-top: 15px;
+   background: rgb(141, 0, 0);
+}
+#pagina #corpo{
+   width: 100%;
+   float: left;
+   margin: 10px 0px;
+   background: rgb(47, 0, 255);
+}
+#pagina #corpo #banner{
+   width: 100%;
+   height: 230px;
+   background: #fff;
+}
+#pagina #corpo #imagens .oculta2{display: none;}
+#pagina #corpo #imagens .oculta1{display: none;}
+
+#pagina #corpo #imagens{
+   width: 100%;
+}
+#pagina #corpo #imagens .fotos{
+   width: 45%;
+   height: 150px;
+   float: left;
+   margin-left: 13px;
+   margin-top: 50px;
+   margin-bottom: 30px;
+   background: cadetblue;
+}
+#pagina #informacoes{
+   width: 100%;
+   min-height: 100px;
+   background: rgb(255, 255, 255);
+   float: left;
+
+}
+#pagina  #informacoes .logo-mid{
+   width: 35%;
+   height: 70px;
+   float: left;
+   margin-left: 160px;
+   margin-top: 20px;
+   background-color: rgb(34, 126, 126);
+}
+#pagina #informacoes .texto-info{
+   width: 45%;
+   height: 100px;
+   float: left;
+   margin-left: 12px;
+   margin-top: 20px;
+   background: rgb(255, 0, 0);
+}
+#pagina #rodape{
+   width: 100%;
+   float: left;
+   background-color: skyblue;
+}
+#pagina #rodape #logo-base{display: none;}
+#pagina #rodape #texto-base{display: none;}
+#pagina #rodape #configuracoes{
+   width: 100%;
+   height: 50px;
+   float: left;
+   background-color: darkorchid;
+}
+#pagina #rodape #icones-sociais{
+   width: 100%;
+   height: 50px;
+   float: left;
+   background-color: aqua;
+}
+}
+@media only screen and (min-width:600px) and (max-width:799.99px){
+    body{background: rgb(0, 255, 0);}
+    #pagina{
+        width: 96%;
+        min-height: 800px;
+        padding: 2%;
+        float: left;
+        background-color: darkolivegreen;
+     }
+     #pagina #cabecalho{
+        width: 100%;
+        float: left;
+        background: #f00;
+    }
+    #pagina #cabecalho #menu-topo{
+       width: 100px;
+       height: 40px;
+       float: left;
+       background-color: rgb(139, 0, 0);
+       margin-top: 15px;
+       margin-left: 160px;
+    }
+    #pagina #cabecalho #logo-topo{
+       width: 140px;
+       height: 70px;
+       float: left;
+       margin-left:1px ;
+       position: absolute;
+       margin-top: 15px;
+       background-color: #fff;
+    } 
+    #pagina #cabecalho #barra-pesquisa{
+        width: 35%;
+        height: 30px;
+        margin-top: 20px;
+        float: left;
+        background-color: fuchsia;
+    }
+    
+    #pagina #cabecalho #ID-usuario{
+       width: 15%;
+       height: 70px;
+       float: right;
+       margin-top: 15px;
+       margin-bottom: 15px;
+       background: rgb(141, 0, 0);
+    }
+    #pagina #corpo{
+       width: 100%;
+       float: left;
+       margin: 10px 0px;
+       background: rgb(47, 0, 255);
+    }
+    #pagina #corpo #banner{
+       width: 100%;
+       height: 230px;
+       background: #fff;
+    }
+    #pagina #corpo #imagens .oculta1{display: none;}
+
+    #pagina #corpo #imagens .oculta2
+    
+    #pagina #corpo #imagens{
+       width: 100%;
+    }
+    #pagina #corpo #imagens .fotos{
+       width: 24%;
+       height: 150px;
+       float: left;
+       margin: 3.0px;
+       background: cadetblue;
+    }
+    #pagina #informacoes{
+       width: 100%;
+       min-height: 100px;
+       background: rgb(0, 0, 0);
+       float: left;
+    
+    }
+    #pagina  #informacoes .logo-mid{
+       width: 35%;
+       height: 70px;
+       float: left;
+       margin-left: 10px;
+       margin-top: 20px;
+       background-color: rgb(34, 126, 126);
+    }
+    #pagina #informacoes 
+    #pagina #informacoes .texto-info{
+       width: 45%;
+       height: 100px;
+       float: left;
+       margin-left: 12px;
+       margin-top: 20px;
+       background: rgb(255, 0, 0);
+    }
+    #pagina #rodape{
+       width: 100%;
+       float: left;
+       background-color: skyblue;
+    }
+    #pagina #rodape #logo-base{display: none;}
+    #pagina #rodape #texto-base
+    #pagina #rodape #configuracoes{
+       width: 100%;
+       height: 50px;
+       float: left;
+       background-color: darkorchid;
+    }
+    #pagina #rodape #icones-sociais{
+       width: 100%;
+       height: 50px;
+       float: left;
+       background-color: aqua;
+    }
+   
+}       
+    
