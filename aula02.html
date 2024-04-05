@@ -1,0 +1,152 @@
+    <!DOCTYPE html>
+    <html lang="pt-br">
+    <head>
+        <meta charset="UTF-8">
+        <meta name="viewport" content="width=device-width, initial-scale=1.0">
+        <title>Aula 02 - JS</title>
+        <script>
+    /*
+            let numero, resp
+            // estrutura condicional SE
+            if((numero = parseInt(prompt("Digite um número inteiro:")))
+            === 0){
+                resp = "ZERO"
+            }else if(numero % 2 == 0){
+                resp = "Par"
+            }else{
+                resp = "Ímpar"
+            }
+            alert(resp + "!!!")
+    */
+            /*
+            Após receber o nome a matéria e as notas dos 4 bimestres de um aluno,
+            calcule a sua média final. e imprima o resultado deste aluno.
+            media > 10 ou < 0 - Média Final Inválida
+            media >= 7 - Aprovado
+            media >= 6.5 - Conselho
+            media >= 4 - Recuperação
+            media < 4 - Reprovado
+            No final solte um alerta com nome, matéria, média final e o resultado.
+            */
+
+            /*
+        bim1 = parseFloat(prompt("Digite a nota do 1° bimestre: "))
+        while(bim1 < 0 || bim1 > 10){
+            alert("ERRO - 01 - Nota do bimestre invalida!!!\n Notas validadas de 0 à 10!!!")
+            bim1 = parseFloat(prompt("Digite a nota do 1° bimestre: "))
+        }
+        bim2 = parseFloat(prompt("Digite a nota do 2° bimestre: "))
+        while(bim2 < 0 || bim2 > 10){
+            alert("ERRO - 01 - Nota do bimestre invalida!!!\n Notas validadas de 0 à 10!!!")
+            bim2 = parseFloat(prompt("Digite a nota do 2° bimestre: "))
+        }
+        bim3 = parseFloat(prompt("Digite a nota do 3° bimestre: "))
+        while(bim3 < 0 || bim3 > 10){
+            alert("ERRO - 01 - Nota do bimestre invalida!!!\n Notas validadas de 0 à 10!!!")
+            bim3 = parseFloat(prompt("Digite a nota do 3° bimestre: "))
+        }
+        bim4 = parseFloat(prompt("Digite a nota do 4° bimestre: "))
+        while(bim4 < 0 || bim4 > 10){
+            alert("ERRO - 01 - Nota do bimestre invalida!!!\n Notas validadas de 0 à 10!!!")
+            bim4 = parseFloat(prompt("Digite a nota do 4° bimestre: "))
+        }
+        let nome,materia,bim1,bim2,bim3,bim4,media,result,
+        */
+
+        let nome,materia,media,result,i,nBim
+        do{
+            nome = prompt("Digite o nome do aluno: ")
+            materia = prompt("Digite a matéria: ")
+            // instaciar a variavel media com 0
+            media = 0
+            for(i = 1; i <= 4;i++){
+                nBim = parseFloat(prompt("Digite a nota do "+ i +"° bimestre: "))
+                while(nBim < 0 || nBim > 10){
+                    alert("ERRO - 01 - Nota do bimestre invalida!!!\n Notas validadas de 0 à 10!!!")
+                    nBim = parseFloat(prompt("Digite a nota do "+ i +"° bimestre: "))
+                }
+                media = media + nBim
+                //console.log("media: " + media)
+            }
+            //media = (bim1+bim2+bim3+bim4)/4
+            media = media / 4
+            if(media < 0 || media > 10){
+                result = "Média invalida"
+            }else if(media >=7){
+                result = "Aprovado"
+            }else if(media >= 6.5){
+                result = "Conselho"
+            }else if(media >= 4){
+                result = "Recuperação"
+            }else{
+                result = "Reprovado"
+            }
+            alert("Aluno(a): " + nome + "\nNa matéria de: " + materia +
+            "\nTeve a média de: " + media + "\n e sua Situação é: " + result)
+            i = parseInt(prompt("Deseja cadastrar outro aluno(a)\n1 - sim\n 0 - não"))
+
+            while(i < 0 || i > 1){
+                alert("ERRO - 02 - Opção Invalida!!!")
+                i = parseInt(prompt("Deseja cadastrar outro aluno(a)\n1 - sim\n0 - não"))
+            }
+
+        }while(i == 1)
+
+            // Solução com as Notas validas  nome,materia,bim1,bim2,bim3,
+            // bim4,media,result
+    /*
+            if((bim1 < 0 || bim1 > 10) || (bim2 < 0 || bim2 > 10) ||
+            (bim3 < 0 || bim3 > 10) || (bim4 < 0 || bim4 > 10)){
+                alert("Uma ou mais de uma nota bimestral esta invalida" +
+                "nota menor que zero ou maior que 10!")
+            }else{
+
+                media = (bim1+bim2+bim3+bim4)/4
+
+                if(media >=7){
+                    result = "Aprovado"
+                }else if(media >= 6.5){
+                    result = "Conselho"
+                }else if(media >= 4){
+                    result = "Recuperação"
+                }else{
+                    result = "Reprovado"
+                }
+
+                alert("Aluno(a): " + nome + "\nNa matéria de: " + materia +
+                "\nTeve a média de: " + media + "\n e sua Situação é: " + result)
+            }
+    */
+    /*
+            numero1 = parseInt(prompt("Digite um numero inteiro de 0 ate 5:"))
+            // estrutura condicional de caso
+            switch (numero1){
+                case 0:
+                    resp = "zero"
+                    break
+                case 1:
+                    resp = "um"
+                    break
+                case 2:
+                    resp = "dois"
+                    break
+                case 3:
+                    resp = "três"
+                    break
+                case 4: 
+                    resp = "quatro"
+                    break
+                case 5:
+                    resp = "cinco"
+                    break
+                default:
+                    resp = "o numero fornecido diferente de 0 ate 5!"
+            }
+            alert(resp)
+    */
+        </script>
+    </head>
+    <body>
+        
+    </body>
+    </html>

@@ -1,0 +1,90 @@
+<!DOCTYPE html>
+<html lang="pt-br">
+<head>
+    <meta charset="UTF-8">
+    <meta name="viewport" content="width=device-width, initial-scale=1.0">
+    <title>Aula 04 - JS</title>
+    <!-- Trabalhar vetores e matrizes-->
+    <script>
+        // Criando um vetor
+        let alunos = ["Fábio", "Dias", "Pablo", "55"]
+
+        console.log(alunos[2])
+
+        let quantidades = [12, 33, 11, 17]
+
+        console.log(quantidades[0])
+
+        console.log(alunos[0] + " " + quantidades[3])
+
+        let vetor = new Array(3)
+
+        for(let i = 0; i <= 2; i++){
+            vetor[i] = prompt("Digite um modelo de carro:")
+        }
+        
+        for(let i = 0; i <= 2;i++){
+            console.log(vetor[i])
+        }
+
+        let frutas = []
+
+        frutas.push("Banana","Manga","Abacate","Tomate","Abacaxi","Uva")
+
+        frutas[6] = "Pêssego"
+
+        for(let i = 0; i <= (frutas.length - 1);i++){
+            console.log(frutas[i])
+        }
+
+        // Para pegar a quantidade de indices do vetor
+        console.log(frutas.length) // 7
+        
+        // Criando uma Matriz
+        let carrosAcessorios = [
+            ["fusca","palio","fiesta"],
+            ["banco de couro","banco na cor marrom","banco flanelado"],
+            ["trio eletrico","trava nas 4 portas","trio eletrico"]
+        ]
+        // primeiro valor percorre a linha 
+        // segundo valor percorre a coluna
+        console.log(
+            carrosAcessorios[0][0] + " | " +
+            carrosAcessorios[0][1] + " | " +
+            carrosAcessorios[0][2]
+        )  // fusca | palio | fiesta
+
+        //let vetor = new Array(3)
+        let feira = new Array(3,4)
+
+        feira[0,0] = "Banana"
+
+        console.log(feira[0,0]) // [0][0] imprime apenas o primeiro caracter "B"
+
+        feira[0,1] = parseInt(prompt("Digite a quantidade de " + feira[0,0]))
+
+        console.log(feira[0,1])
+
+        // Criando matriz tipo objeto
+        let celular = {
+            cor: "azul/preto",
+            marca: "xiaomi",
+            modelo: "Redmi",
+            biometria: true,// true  Verdadeiro | false Falso
+            largura: 3,
+            altura: 8
+
+        }
+
+        celular.modelo = "POCO"
+
+        console.log(celular.modelo)
+
+        console.log(celular)
+
+
+    </script>
+</head>
+<body>
+</body>
+</html>
